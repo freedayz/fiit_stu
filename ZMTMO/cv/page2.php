@@ -1,0 +1,4 @@
+<article>
+<h1>Article#2</h1>
+Curabitur at libero ut turpis consequat bibendum. Vivamus sem mauris, imperdiet at tincidunt ac, molestie quis tellus. Vestibulum sit amet tellus nunc. Nullam velit nulla, pellentesque sed diam sit amet, sodales dictum dolor. Fusce auctor libero diam, sit amet aliquet libero porta eu. Proin gravida egestas massa, in auctor sem vulputate at. Vestibulum aliquet, eros sed aliquam vehicula, nisi justo tincidunt lorem, non blandit felis neque nec risus. Phasellus in iaculis nunc. Suspendisse tincidunt in leo ut molestie. Phasellus ac neque sed erat pulvinar convallis. Cras augue libero, consectetur quis enim id, euismod faucibus augue.
+</article>

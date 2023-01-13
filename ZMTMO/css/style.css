@@ -1,0 +1,32 @@
+.sm {
+	font-size: 0.8em;
+}
+
+.card-contact {
+	width: 100%;
+	height: 20%;
+	position: relative;
+}
+
+.email {
+	color: #000;
+	text-decoration: none;
+	transition: color 300ms;
+}
+
+.email:hover {
+	color: #e57248;
+}
+
+.contact-alt {
+	font-family: Open Sans;
+	font-weight: lighter;
+	font-size: 1.2em;
+	position: relative;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.contact-alt-sm {
+	font-size: 1em;
+}

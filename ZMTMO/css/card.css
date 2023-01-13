@@ -1,0 +1,169 @@
+.card-container {
+	width: 80%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #fff;
+	box-shadow: 0 5px 10px #b7b7b7;
+}
+
+.card-container-lg {
+	width: 80%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #fff;
+	box-shadow: 0 5px 10px #b7b7b7;
+}
+
+
+.card-header {
+	width: 100%;
+	height: auto;
+}
+
+.card-heading {
+	font-family: Open Sans;
+	font-weight: 800;
+	padding: 15px;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #000;
+}
+
+.card-header-desc {
+	font-family: Open Sans;
+	font-weight: 400;
+	margin-left: 25px;
+	margin-right: 25px;
+	color: #000;
+	font-size: 1em;
+}
+
+.card-body {
+	width: 100%;
+	height: 100%;
+}
+
+.card-info {
+	width: 50%;
+	height: 50%;
+	position: relative;
+	float: left;
+}
+
+.card-info-text {
+	text-align: center;
+	margin-top: 25px;
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+.card-functions {
+	width: 100%;
+	height: auto;
+}
+
+.card-button {
+	width: 100%;
+	height: 100%;
+	border: 10px solid #e1e1e1;
+	background-color: #e1e1e1;
+	font-family: Open Sans;
+	font-weight: 400;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.scrollable-specs {
+	width: 100%;
+	height: auto;
+	background-color: #ededed;
+	position: relative;
+	left: 0;
+	overflow-y: auto;
+}
+
+.critics-div {
+	width: auto;
+	height: auto;
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+	padding: 5px;
+}
+
+.review-text {
+	font-family: Open Sans;
+	font-weight: bold;
+	font-size: 0.9em;
+	
+}
+
+.positive {
+	color: #478f76;
+}
+
+.negative {
+	color: #f6546a;
+}
+
+.interactions-div {
+	width: 100%;
+	height: 100%;
+	background-color: #eaeaea;
+	border: none;
+}
+
+.i-block {
+	width: auto;
+	height: 100%;
+	max-height: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+.like-btn {
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	background-color: #66cdaa;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 15px;
+	transition: transform 500ms;
+}
+
+.like-btn:hover {
+	transform: scale(1.2) rotate(15deg);
+}
+
+.like-text {
+	font-family: Open Sans;
+	position: relative;
+	right: 0;
+	font-size: 0.8em;
+	margin-left: 5px;
+	margin-right: 10px;
+	font-weight: light;
+	display: inline-block;
+}
+
+.dislike-colored {
+	background-color: #f6546a;
+}
+
+.comment-colored {
+	background-color: #808080;
+}
+
+.h-centered {
+	text-align: center !important;
+}

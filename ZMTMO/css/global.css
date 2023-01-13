@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+.main-container {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 20%;
+	left: 0;
+	display: inline-block;
+}
+
+.mobile-preview {
+	position: relative;
+	width: 30%;
+	height: auto;
+	left: 0;
+	bottom: 0;
+	display: inline-block;
+}
+
+.phone-img {
+	height: 25vw;
+	position: relative;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.welcome-description {
+	width: 60%;
+	height: auto;
+	position: relative;
+	left: 5%;
+	top: 10%;
+	display: inline-block;
+}
+
+table {
+	margin-left: 5%;
+	font-family: Open Sans;
+	text-align: left;
+	width: 75%;
+	color: #232323;
+}
+
+th {
+	padding: 10px 10px 10px 0;
+	border-bottom: 2px dashed black;
+}
+
+tr,td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 700;
+}
+
+.hamburger-close {
+	display: none;
+}
+
+.hamburger {
+	display: none;
+}

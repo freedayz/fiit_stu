@@ -1,0 +1,106 @@
+.comment-container {
+	width: 60%;
+	height: auto;
+	position: relative;
+	left: 50%;
+	margin-top: 10%;
+    transform: translateX(-50%);
+	background-color: #fff;
+	box-shadow: 0 5px 10px #b7b7b7;
+}
+
+.comments-title {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-bottom: 10%;
+}
+
+.comments-title-text {
+	font-family: Open Sans;
+	font-weight: lighter;
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 45px;
+}
+
+.comments-content {
+	width: 100%;
+	height: auto;
+	position: relative;
+	left: 0;
+	background-color: #eaeaea;
+	overflow-y: auto;
+	border-top: 10px solid #eaeaea;
+	border-bottom: 10px solid #eaeaea;
+}
+
+.input {
+	position: relative;
+	width: 70%;
+	height: 100px;
+	resize: none;
+	margin-left: 5%;
+	border: 3px solid #eaeaea;
+	background-color: #eaeaea;
+	text-indent: 5px;
+	display: inline-table;
+}
+
+.input:focus {
+	outline: 0;
+}
+
+.submitComment {
+	width: 45px;
+	height: 45px;
+	position: relative;
+	margin: 2%;
+	top: 40px;
+	border: none;
+	border-radius: 100%;
+	background-color: #20b2aa;
+	color: #fff;
+	font-size: 1.2em;
+	text-align: center;
+	transition: transform 500ms;
+	cursor: pointer;
+}
+
+.submitComment:hover {
+	transform: scale(1.2);
+}
+
+.loc {
+	margin-left: -15%;
+}
+
+.msgRow {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 0;
+	margin-top: 5%;
+}
+
+.msgRow:last-child {
+	margin-bottom: 5%;
+}
+
+.msgBody {
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	position: relative;
+	background-color: #fff;
+	box-shadow: 0 0 10px #b7b7b7;
+	border: 10px solid #fff;
+	font-family: Open Sans;
+}
+
+.msgDateTime {
+	position: relative;
+	left: 6%;
+	font-family: Open Sans;
+	font-size: 0.8em;
+}
